@@ -28,7 +28,7 @@ reverse_map := false ; false/true: 1 key clicks the rightmost/leftmost block
 
 ![](https://github.com/Johj/block-map/raw/master/examples/save.gif)
 
-Now you're ready to use the script! You can press `Escape` to close the script and `` `  to disable hotkeys. You can also do this by right-clicking the script icon in the taskbar.
+Now you're ready to use the script! You can press `Escape` to close the script and `` ` ``  to disable hotkeys. You can also do this by right-clicking the script icon in the taskbar.
 
 ### Disclaimer
 While this script was designed with safety in mind, the author is not responsible for any loss or damage that results, either directly or indirectly, from the usage of this script. Use at your own risk, as is the case with using any macro in most games.
