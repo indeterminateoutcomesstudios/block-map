@@ -15,7 +15,7 @@ Substituting a mouseclick as a proxy for a finger on an emulator often times fee
 
 ### How To Use
 1. Download and install [AutoHotkey](https://autohotkey.com/).
-2. Download [BlockMap.ahk]().
+2. Download [BlockMap.ahk](https://github.com/Johj/block-map/archive/master.zip).
 3. Open the script in a text editor and modify the following variables to your preference (don't forget to save afterwards!):
 ```ahk
 block_displacement := 115 ; distance between blocks
