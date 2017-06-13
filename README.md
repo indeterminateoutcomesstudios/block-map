@@ -9,6 +9,7 @@ Substituting a mouseclick as a proxy for a finger on an emulator often times fee
 1. Macro is emulator and resolution independent.
 2. Map number keys to block positions.
 3. Click position coordinates follow a [Gaussian distribution](https://en.wikipedia.org/wiki/Normal_distribution) and should be safer than built-in macros found in emulators.
+
 ![](https://github.com/Johj/block-map/raw/master/examples/gaussian.gif)
 4. One physical, human keyboard input results in one emulator input (a strict 1:1 ratio). In other words, there is no automation.
 
