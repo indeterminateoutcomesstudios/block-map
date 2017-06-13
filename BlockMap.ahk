@@ -39,7 +39,7 @@ MapNumberToBlock:
   y_final := y_initial
 
   ; used for debugging, can comment out
-  ShowTooltip(A_ThisHotkey . ": (" . x_final + x_delta . ", " . y_final + y_delta . ")")
+  ; ShowTooltip(A_ThisHotkey . ": (" . x_final + x_delta . ", " . y_final + y_delta . ")")
 
   ; move and click
   MouseClick, Left, x_final + x_delta, y_final + y_delta, 1, %speed%
