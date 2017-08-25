@@ -1,6 +1,7 @@
 ﻿#NoEnv
 #SingleInstance, Force
 SetBatchLines, -1
+CoordMode, Mouse, Screen
 
 ; script hotkey definitions
 ;   f1  : set starting block coordinates
@@ -11,7 +12,7 @@ SetBatchLines, -1
 ; edit parameters in this section to your preference
 block_displacement := 80 ; distance between blocks
 speed := 2 ; mouse movement speed
-reverse_map := true ; false/true: 1 key clicks the rightmost/leftmost block
+reverse_map := false ; false/true: 1 key clicks the rightmost/leftmost block
 
 ; changing any code below this line may alter script behavior
 spread := Round(block_displacement / 3)
