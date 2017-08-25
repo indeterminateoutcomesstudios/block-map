@@ -9,26 +9,27 @@ SetBatchLines, -1
 ;   esc : close script
 
 ; edit parameters in this section to your preference
-block_displacement := 115 ; distance between blocks
+block_displacement := 80 ; distance between blocks
 speed := 2 ; mouse movement speed
-reverse_map := false ; false/true: 1 key clicks the rightmost/leftmost block
+reverse_map := true ; false/true: 1 key clicks the rightmost/leftmost block
 
 ; changing any code below this line may alter script behavior
 spread := Round(block_displacement / 3)
+num_blocks := 9
 
 ; starting block coordinates initialized to the center of the screen
 x_initial := Round(A_ScreenWidth / 2)
 y_initial := Round(A_ScreenHeight / 2)
 
 ; dynamically create hotkeys
-Loop, 8
+Loop, %num_blocks%
   Hotkey, %A_Index%, MapNumberToBlock, On
 return
 
 ; labels
 MapNumberToBlock:
   ; determine mapping orientation
-  key := reverse_map ? 8 - A_ThisHotkey + 1 : A_ThisHotkey
+  key := reverse_map ? num_blocks - A_ThisHotkey + 1 : A_ThisHotkey
 
   ; get delta
   x_delta := Round(Gaussian(-spread, spread))

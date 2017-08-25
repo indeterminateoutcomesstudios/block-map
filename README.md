@@ -1,8 +1,6 @@
 # block-map
 Map number keys to [CQ](https://play.google.com/store/apps/details?id=com.nhnent.SKQUEST) blocks.
 
-![](https://github.com/Johj/block-map/raw/master/examples/demo.gif)
-
 Using a mouseclick as a proxy for a finger on an emulator often times feels awkward and delayed. This script attempts to alleviate this disconnect in a responsible, safe, and tactile manner.
 
 ### Goals
@@ -11,6 +9,8 @@ The macro should...
 2. Map the number keys 1 through 8 to their respective block positions.
 3. Map one physical, human keyboard input to one emulator input (a strict 1:1 ratio). In other words, there is no automation.
 4. Click position coordinates following a [Gaussian distribution](https://en.wikipedia.org/wiki/Normal_distribution) and *should* be safer than built-in macros found in emulators.
+
+![](https://github.com/Johj/block-map/raw/master/examples/demo.gif)
 
 ![](https://github.com/Johj/block-map/raw/master/examples/gaussian.gif)
 
